@@ -12,7 +12,7 @@ namespace galaxy
                 new Galaxy("Tadpole", 400),
                 new Galaxy("Pinwheel", 25),
                 new Galaxy("Milky Way", 0),
-                new Galaxy("Andromeda", 3)
+                new Galaxy(null, 3)
             };
 
             foreach (Galaxy i in theGalaxies)
@@ -27,14 +27,13 @@ namespace galaxy
 
     public class Galaxy
     {
-        public string Name { get; set; }
-        public int LightYears { get; set; }
+        public String Name { get; set; }
+        public UInt16 LightYears { get; set; }
 
-        public Galaxy(string name, int lightYears)
+        public Galaxy(string name, UInt16 lightYears)
         {
             Name = name;
             LightYears = lightYears;
-
         }
 
     }
