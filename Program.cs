@@ -12,7 +12,7 @@ namespace galaxy
                 new Galaxy("Tadpole", 400),
                 new Galaxy("Pinwheel", 25),
                 new Galaxy("Milky Way", 0),
-                new Galaxy(null, 3)
+                new Galaxy("Andromeda", 3)
             };
 
             foreach (Galaxy i in theGalaxies)
