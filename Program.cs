@@ -27,10 +27,10 @@ namespace galaxy
 
     public class Galaxy
     {
-        public String Name { get; set; }
-        public UInt16 LightYears { get; set; }
+        public string Name { get; set; }
+        public uint LightYears { get; set; }
 
-        public Galaxy(string name, UInt16 lightYears)
+        public Galaxy(string name, uint lightYears)
         {
             Name = name;
             LightYears = lightYears;
